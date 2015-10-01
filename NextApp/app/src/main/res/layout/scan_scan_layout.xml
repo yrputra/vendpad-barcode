@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.yrp.nextapp.ScanScan.ui.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8">
+        <com.example.yrp.nextapp.ScanScan.ui.camera.GraphicOverlay
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/overlay"/>
+    </com.example.yrp.nextapp.ScanScan.ui.camera.CameraSourcePreview>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="lalala"
+            android:autoLink="web"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lilili"
+            android:padding="10dp"
+            android:id="@+id/txtlagi"/>
+    </LinearLayout>
+
+</LinearLayout>

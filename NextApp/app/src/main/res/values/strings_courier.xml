@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="courier_prompt">Choose Courier</string>
+
+    <string-array name="courier_array">
+        <item>jne</item>
+        <item>tiki</item>
+        <item>pos</item>
+    </string-array>
+</resources>
